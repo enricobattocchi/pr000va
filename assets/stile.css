@@ -115,3 +115,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #0754
 .dialog-top #panel-title{font-family:Plate,Lato,Arial,sans-serif;font-weight:400;font-synthesis:none;font-size:2rem;line-height:1.2;letter-spacing:0;overflow-wrap:anywhere}
 
 .footer-links{align-items:baseline}.footer-links a{display:inline-block;min-height:0;padding-block:6px;line-height:inherit;vertical-align:baseline}
+
+.interpretation .edit-hint{font-family:Lato,Arial,sans-serif;font-size:.8125rem;line-height:1.4;color:#585a54;margin:6px 0 0}.interpretation:has(.inline-word-editor) .edit-hint{display:none}
+
+.interpretation .edit-hint{margin:0 0 10px}

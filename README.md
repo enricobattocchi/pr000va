@@ -32,4 +32,4 @@ Con Node.js: `node tests/repertorio.cjs` e `node --check assets/app.js`.
 
 Vedi `CREDITI.md` e `LICENSE`. Le targhe sono di fantasia e non sono destinate alla circolazione.
 
-Un’idea di [lopo.it](https://lopo.it).
+Un’idea di [Lopo.it](https://lopo.it).

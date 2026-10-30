@@ -31,7 +31,7 @@ function choose(plate,remember){const e=byPlate.get(plate);if(!e)return;if(!fits
  current=e;state.current=plate;if(remember)state.history=[plate,...state.history.filter(p=>p!==plate)].slice(0,40);persist();render();$('#plate-status').textContent='Targa '+displayPlate(current.plate)+'. Si legge '+current.label; }
 function render(){
  const dot=document.createElementNS('http://www.w3.org/2000/svg','tspan');dot.setAttribute('font-family','Lato,Arial,sans-serif');dot.setAttribute('baseline-shift','6.28');dot.textContent='·';$('#plate-number').replaceChildren(document.createTextNode(current.plate.slice(0,2)),dot,document.createTextNode(current.plate.slice(3).replace(' ','')));$('#hero-plate').setAttribute('aria-label','Targa di fantasia '+displayPlate(current.plate));
- $('#reading').textContent=current.label;
+ $('#reading').textContent=current.word;
  const isSaved=state.favorites.includes(current.plate);$('#save').setAttribute('aria-pressed',String(isSaved));$('#save-label').textContent=isSaved?'Salvata':'Salva';$('#save>span').textContent=isSaved?'♥':'♡';$('#fav-count').textContent=state.favorites.length;
  renderHistory();
 }

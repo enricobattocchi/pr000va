@@ -17,3 +17,7 @@ Generato con lo strumento integrato ImageGen. File: `assets/livorno.png`.
 Prompt utilizzato:
 
 Edit target: supplied photo, website background. Change ONLY the surroundings to Terrazza Mascagni in Livorno: characteristic black and white checkerboard pavement in perspective, white stone balustrade overlooking a broad flat open blue sea, level horizon, warm late afternoon Mediterranean light. Remove all mountainous coastline, cliffside villages, domes, flowerpots and vegetation framing. Photorealistic. CRITICAL preserve the exact framing, 1536x1024 landscape aspect ratio, exact car position, size, silhouette, rear perspective and sunglasses dog. Keep cream vintage Italian compact car absolutely unchanged including its blank license plate mount at x550 to990,y452 to553; the website overlays a dynamic plate there. Keep plate totally blank. No words, no logos, no bubbles, no interface, no watermark. The car's tires sit on the terrace pavement. Only environment changes.
+
+
+### Chihuahua
+Modifica con ImageGen integrato di `assets/livorno.png`: sostituire soltanto il cane con un chihuahua fotorealistico a pelo corto fulvo e crema, orecchie dritte, occhiali da sole e lingua leggermente fuori. Conservare posizione, auto, targa vuota, inquadratura 1536 × 1024 e Terrazza Mascagni.
